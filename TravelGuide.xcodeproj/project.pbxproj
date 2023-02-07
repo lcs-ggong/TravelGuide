@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		18F07DE72991DECD0005D5FE /* TravelGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07DE62991DECD0005D5FE /* TravelGuideApp.swift */; };
-		18F07DE92991DECD0005D5FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07DE82991DECD0005D5FE /* ContentView.swift */; };
 		18F07DEB2991DECF0005D5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F07DEA2991DECF0005D5FE /* Assets.xcassets */; };
 		18F07DEE2991DECF0005D5FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F07DED2991DECF0005D5FE /* Preview Assets.xcassets */; };
+		18F07DF62991E2110005D5FE /* SexSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07DF52991E2110005D5FE /* SexSelection.swift */; };
+		18F07DF82991E42C0005D5FE /* age.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07DF72991E42C0005D5FE /* age.swift */; };
+		18F07DFA2991E8D10005D5FE /* interests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07DF92991E8D10005D5FE /* interests.swift */; };
+		18F07DFC2991EC6F0005D5FE /* member numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07DFB2991EC6F0005D5FE /* member numbers.swift */; };
+		18F07DFE2991ECB90005D5FE /* cityrecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07DFD2991ECB90005D5FE /* cityrecommendation.swift */; };
+		18F07E002991ECEC0005D5FE /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07DFF2991ECEC0005D5FE /* Destination.swift */; };
+		18F07E022991F7600005D5FE /* reason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07E012991F7600005D5FE /* reason.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18F07DE32991DECD0005D5FE /* TravelGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F07DE62991DECD0005D5FE /* TravelGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelGuideApp.swift; sourceTree = "<group>"; };
-		18F07DE82991DECD0005D5FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18F07DEA2991DECF0005D5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F07DED2991DECF0005D5FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18F07DF52991E2110005D5FE /* SexSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexSelection.swift; sourceTree = "<group>"; };
+		18F07DF72991E42C0005D5FE /* age.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = age.swift; sourceTree = "<group>"; };
+		18F07DF92991E8D10005D5FE /* interests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interests.swift; sourceTree = "<group>"; };
+		18F07DFB2991EC6F0005D5FE /* member numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "member numbers.swift"; sourceTree = "<group>"; };
+		18F07DFD2991ECB90005D5FE /* cityrecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityrecommendation.swift; sourceTree = "<group>"; };
+		18F07DFF2991ECEC0005D5FE /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		18F07E012991F7600005D5FE /* reason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reason.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				18F07DE62991DECD0005D5FE /* TravelGuideApp.swift */,
-				18F07DE82991DECD0005D5FE /* ContentView.swift */,
+				18F07DF42991E18E0005D5FE /* Views */,
 				18F07DEA2991DECF0005D5FE /* Assets.xcassets */,
 				18F07DEC2991DECF0005D5FE /* Preview Content */,
 			);
@@ -65,6 +77,20 @@
 				18F07DED2991DECF0005D5FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18F07DF42991E18E0005D5FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18F07DF52991E2110005D5FE /* SexSelection.swift */,
+				18F07DF72991E42C0005D5FE /* age.swift */,
+				18F07DF92991E8D10005D5FE /* interests.swift */,
+				18F07DFB2991EC6F0005D5FE /* member numbers.swift */,
+				18F07DFD2991ECB90005D5FE /* cityrecommendation.swift */,
+				18F07DFF2991ECEC0005D5FE /* Destination.swift */,
+				18F07E012991F7600005D5FE /* reason.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F07DE92991DECD0005D5FE /* ContentView.swift in Sources */,
 				18F07DE72991DECD0005D5FE /* TravelGuideApp.swift in Sources */,
+				18F07DFE2991ECB90005D5FE /* cityrecommendation.swift in Sources */,
+				18F07DF62991E2110005D5FE /* SexSelection.swift in Sources */,
+				18F07DF82991E42C0005D5FE /* age.swift in Sources */,
+				18F07DFC2991EC6F0005D5FE /* member numbers.swift in Sources */,
+				18F07DFA2991E8D10005D5FE /* interests.swift in Sources */,
+				18F07E002991ECEC0005D5FE /* Destination.swift in Sources */,
+				18F07E022991F7600005D5FE /* reason.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
