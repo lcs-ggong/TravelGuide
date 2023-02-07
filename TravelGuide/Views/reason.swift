@@ -20,6 +20,7 @@ struct reason: View {
             HStack{
                 Text("Safety")
                     .font(Font.system(size: 28, weight: .bold))
+                   
                 
                 Spacer()
                

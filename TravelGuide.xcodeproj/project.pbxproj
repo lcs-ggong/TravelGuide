@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1807FE30299298B500CA795C /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807FE2F299298B500CA795C /* Budget.swift */; };
 		18F07DE72991DECD0005D5FE /* TravelGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07DE62991DECD0005D5FE /* TravelGuideApp.swift */; };
 		18F07DEB2991DECF0005D5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F07DEA2991DECF0005D5FE /* Assets.xcassets */; };
 		18F07DEE2991DECF0005D5FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F07DED2991DECF0005D5FE /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1807FE2F299298B500CA795C /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 		18F07DE32991DECD0005D5FE /* TravelGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F07DE62991DECD0005D5FE /* TravelGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelGuideApp.swift; sourceTree = "<group>"; };
 		18F07DEA2991DECF0005D5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				18F07DF72991E42C0005D5FE /* age.swift */,
 				18F07DF92991E8D10005D5FE /* interests.swift */,
 				18F07DFB2991EC6F0005D5FE /* member numbers.swift */,
+				1807FE2F299298B500CA795C /* Budget.swift */,
 				18F07DFD2991ECB90005D5FE /* cityrecommendation.swift */,
 				18F07DFF2991ECEC0005D5FE /* Destination.swift */,
 				18F07E012991F7600005D5FE /* reason.swift */,
@@ -168,6 +171,7 @@
 				18F07DF62991E2110005D5FE /* SexSelection.swift in Sources */,
 				18F07DF82991E42C0005D5FE /* age.swift in Sources */,
 				18F07DFC2991EC6F0005D5FE /* member numbers.swift in Sources */,
+				1807FE30299298B500CA795C /* Budget.swift in Sources */,
 				18F07DFA2991E8D10005D5FE /* interests.swift in Sources */,
 				18F07E002991ECEC0005D5FE /* Destination.swift in Sources */,
 				18F07E022991F7600005D5FE /* reason.swift in Sources */,
