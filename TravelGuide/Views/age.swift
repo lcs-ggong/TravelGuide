@@ -8,20 +8,45 @@
 import SwiftUI
 
 struct age: View {
- 
+    
+    @State var desiredPrecision: Double = 1
     
     var body: some View {
-        
-       
-            Text("age")
-                .font(.title2)
+        VStack(alignment: .leading) {
+            
+            Divider()
+                .padding(.vertical, 20)
+
+            Text("Age")
                 .bold()
-         
+                .font(.title)
+                .padding(.bottom, 3)
+            
+            Text("There are different Tours for different age groups")
+                .italic()
+                .padding(.bottom, 10)
+
+      
+        
+            
+            Group{
+                
+                Stepper("Age", value: $desiredPrecision, in: 0...100)
+                
+                //Show precision
+                Text("\(desiredPrecision.formatted(.number.precision(.fractionLength(0))))")
+                    .font(.title2)
+            }
+
+
+        }
+        .padding(.horizontal)
     }
 }
 
 struct age_Previews: PreviewProvider {
     static var previews: some View {
-        age()
+       age()
     }
 }
+

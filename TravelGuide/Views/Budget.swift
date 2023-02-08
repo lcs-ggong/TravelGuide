@@ -21,7 +21,7 @@ struct BudgetView: View {
 //    //MARK: Computed properties
 //
     var budget: Double{
-        return Double; numbers*price*days  }
+        return numbers*price*days  }
 
     
     //Expressing the user interface
