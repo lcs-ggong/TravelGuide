@@ -9,20 +9,20 @@ import SwiftUI
 
 struct BudgetView: View {
     
-    //MARK: Stored properties
-    //@State is a "property wrapper" that essentially
-    //tells SwiftUI to update the user interface when these
-    //values change.
-    @State var numbers: Int = 1
+//    //MARK: Stored properties
+//    //@State is a "property wrapper" that essentially
+//    //tells SwiftUI to update the user interface when these
+//    //values change.
+    @State var numbers: Double = 1
     @State var price: Double = 300
     @State var days: Double = 5
     @State var desiredPrecision: Double = 1
-    
-    //MARK: Computed properties
-    
+
+//    //MARK: Computed properties
+//
     var budget: Double{
-        return Double(numbers)*price*days    }
-    
+        return Double; numbers*price*days  }
+
     
     //Expressing the user interface
     var body: some View {
@@ -30,30 +30,28 @@ struct BudgetView: View {
         VStack(spacing: 10){
            
             
-            Group{
+           Group{
                 Text("Numbers")
                     .font(.title2)
                     .bold()
-                
-                
-                
-                
-                Slider(value: $numbers,
-                       in: 0...100,
-                       label: { Text("Numbers")},
-                       minimumValueLabel: {Text("0")},
-                       maximumValueLabel: { Text("100")})
-                
-              
-                
-                //use string interpolation to convert
-                //the double data type tp text(string)
-                //
-                //\(variable)
-                
+
+
+               Slider(value: $numbers,
+                      in: 0...100,
+                      label: { Text("numbers")},
+                      minimumValueLabel: {Text("0")},
+                      maximumValueLabel: { Text("100")})
+
+
+
+////                use string interpolation to convert
+////                the double data type tp text(string)
+//
+//                (variable)
+
                 Text("\(numbers.formatted(.number.precision(.fractionLength(Int(desiredPrecision)))))")
                     .font(.title2)
-                
+
             }
             
             Group{

@@ -34,7 +34,7 @@ struct reason: View {
                 Spacer()
                
             }
-            
+             
       
             
             HStack{
