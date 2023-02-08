@@ -9,7 +9,7 @@ import SwiftUI
 
 struct age: View {
     
-    @State var desiredPrecision: Double = 1
+    @State var desiredPrecision: Double = 25
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -31,7 +31,7 @@ struct age: View {
             
             Group{
                 
-                Stepper("Age", value: $desiredPrecision, in: 0...100)
+                Stepper("choose your age", value: $desiredPrecision, in: 0...100)
                 
                 //Show precision
                 Text("\(desiredPrecision.formatted(.number.precision(.fractionLength(0))))")
