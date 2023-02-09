@@ -46,6 +46,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180939842994782B004C44FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		18F07DDA2991DECD0005D5FE = {
 			isa = PBXGroup;
 			children = (
@@ -86,12 +93,13 @@
 			children = (
 				18F07DF52991E2110005D5FE /* SexSelection.swift */,
 				18F07DF72991E42C0005D5FE /* age.swift */,
-				18F07DF92991E8D10005D5FE /* interests.swift */,
 				18F07DFB2991EC6F0005D5FE /* member numbers.swift */,
+				18F07DF92991E8D10005D5FE /* interests.swift */,
 				18F07DFD2991ECB90005D5FE /* cityrecommendation.swift */,
 				18F07DFF2991ECEC0005D5FE /* Destination.swift */,
 				18F07E012991F7600005D5FE /* reason.swift */,
 				1807FE2F299298B500CA795C /* Budget.swift */,
+				180939842994782B004C44FA /* Model */,
 			);
 			path = Views;
 			sourceTree = "<group>";

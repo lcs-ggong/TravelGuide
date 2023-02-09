@@ -17,12 +17,12 @@ struct SexSelection: View {
             Divider()
                 .padding(.vertical, 10)
             
-            Text("Sex")
+            Text("Gender")
                 .bold()
                 .font(.title)
                 .padding(.bottom, 3)
             
-            Text("Choose your sex")
+            Text("Choose your gender")
                 .italic()
                 .padding(.bottom, 10)
             
@@ -36,10 +36,11 @@ struct SexSelection: View {
                     
                     Text("Male").tag(false)
                     Text("Female").tag(true)
+                    Text("other").tag(false)
 
                     
                 })
-                .pickerStyle(.segmented)
+                .pickerStyle(.automatic)
             }
             
             Text("isFemale is: \(isFemale ? "true" : "false")")
