@@ -36,8 +36,7 @@ struct BudgetView: View {
                     .bold()
 
 
-               Slider(value: $numbers,
-                      in: 0...100,
+               Slider(value: $numbers, in: 0...100, step:1.0,
                       label: { Text("numbers")},
                       minimumValueLabel: {Text("0")},
                       maximumValueLabel: { Text("100")})
@@ -78,7 +77,7 @@ struct BudgetView: View {
                 
                 
                 Slider(value: $days,
-                       in: 0...100,
+                       in: 0...100,step:1.0,
                        label: { Text("Days")},
                        minimumValueLabel: {Text("0")},
                        maximumValueLabel: { Text("100")})
